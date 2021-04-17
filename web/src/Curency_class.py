@@ -7,7 +7,7 @@ class Curency:
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0'}
 
     current_converted_price = 0
-    difference = 0.01
+    difference = 0.1
     first_time = True
 
     def __init__(self):
